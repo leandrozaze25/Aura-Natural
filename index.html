@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Natural | Uma Experiência Imersiva</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Preloader: Animação de carregamento -->
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+
+    <!-- Cabeçalho -->
+    <header class="header">
+        <a href="#" class="logo">Aura Natural</a>
+        <nav class="navbar">
+            <a href="#about">Sobre</a>
+            <a href="#gallery">Galeria</a>
+            <a href="#contact">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Principal (Hero) com Efeito Parallax -->
+        <section class="hero">
+            <div class="hero-text">
+                <h1>Encontre a sua paz interior.</h1>
+                <p>Uma jornada imersiva pela essência da natureza para renovar corpo e alma.</p>
+                <a href="#about" class="btn">Descubra a Experiência</a>
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="about" class="content-section">
+            <div class="container">
+                <h2>A Beleza do Simples</h2>
+                <p>Acreditamos que o bem-estar verdadeiro nasce da simplicidade e da profunda conexão com o mundo natural. As nossas experiências são cuidadosamente desenhadas para trazer mais calma, foco e equilíbrio para o seu dia a dia.</p>
+            </div>
+        </section>
+
+        <!-- Seção Galeria Interativa -->
+        <section id="gallery" class="gallery-section">
+            <div class="container">
+                <h2>Momentos de Inspiração</h2>
+                <div class="gallery-grid">
+                    <!-- Item da Galeria 1 -->
+                    <div class="gallery-item" data-src="https://placehold.co/1200x800/a3b18a/ffffff?text=Floresta" data-caption="O silêncio profundo das florestas antigas.">
+                        <img src="img/uma floresta.png" alt="Vista de uma floresta densa">
+                        <div class="gallery-item-hover">Clique para ampliar</div>
+                    </div>
+                    <!-- Item da Galeria 2 -->
+                    <div class="gallery-item" data-src="https://placehold.co/1200x800/588157/ffffff?text=Montanhas" data-caption="A majestade serena dos picos montanhosos.">
+                        <img src="img/montanha.png" alt="Pico de uma montanha com neblina">
+                        <div class="gallery-item-hover">Clique para ampliar</div>
+                    </div>
+                    <!-- Item da Galeria 3 -->
+                    <div class="gallery-item" data-src="https://placehold.co/1200x800/3a5a40/ffffff?text=Lagos" data-caption="O reflexo perfeito em águas cristalinas.">
+                        <img src="img/imagem de lago.png" alt="Lago calmo ao amanhecer">
+                        <div class="gallery-item-hover">Clique para ampliar</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contact" class="content-section contact-section">
+            <div class="container">
+                <h2>Inicie a sua Jornada</h2>
+                <p>Estamos prontos para ouvir você. Envie-nos uma mensagem e descubra como podemos colaborar.</p>
+                <a href="mailto:contato@auranatural.com" class="btn">Enviar E-mail</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; 2025 Aura Natural. Criado com paixão e código.</p>
+    </footer>
+
+    <!-- Modal da Galeria -->
+    <div id="modal" class="modal">
+        <span class="modal-close">&times;</span>
+        <img class="modal-content" id="modal-image">
+        <div id="modal-caption"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
