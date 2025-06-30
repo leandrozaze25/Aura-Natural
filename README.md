@@ -26,4 +26,4 @@ JavaScript (ES6+): Manipulação do DOM para criar todas as funcionalidades inte
 
 
 
-Link do Projeto: https://github.com/SEU-NOME-DE-USUARIO/NOME-DO-SEU-REPOSITORIO
+Link do Projeto: https://leandrozaze25.github.io/Aura-Natural/
